@@ -2613,8 +2613,8 @@ header .navbar.navbar-shadow {
 }
 .head-area .logo-wrapper .crypto-logo .crypto-logo-img {
   position : absolute;
-  left : 10%;
-  top : 10%;
+  left : 20%;
+  top : 31%;
 }
 .head-area #ripple, .head-area #ripple2, .head-area #ripple3 {
   border-radius : 9999px;
