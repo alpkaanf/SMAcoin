@@ -1,18 +1,244 @@
-<!doctype html>
-<title>Site Maintenance</title>
-<style>
-  body { text-align: center; padding: 150px; }
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-  a { color: #dc8100; text-decoration: none; }
-  a:hover { color: #333; text-decoration: none; }
-</style>
+<!DOCTYPE html>
+<html lang="en" data-textdirection="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Crypto ICO is a responsive modern &amp; clean cryptocurrency website landing page html with admin dashboard template , specially created for ICO Startup agencies and digital crypto currency investment website.">
+    <meta name="keywords" content="crypto, ico, cryptocurrency, bitcoin, landing, admin, dashboard, template, modern, clean, responsive">
+    <meta name="author" content="PIXINVENT">
+    <title>SMAcoin</title>
+    <link rel="apple-touch-icon" href="theme-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="theme-assets/images/ico/favicon.ico">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,700" rel="stylesheet">
+    <!--Font icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- BEGIN VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="theme-assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="theme-assets/fonts/themify/style.min.css">
+    <link rel="stylesheet" type="text/css" href="theme-assets/fonts/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="theme-assets/vendors/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="theme-assets/vendors/flipclock/flipclock.css">
+    <link rel="stylesheet" type="text/css" href="theme-assets/vendors/swiper/css/swiper.min.css">
+    <!-- END VENDOR CSS-->
+    <!-- END CRYPTO CSS-->
+    <!-- BEGIN Page Level CSS-->
+    <link rel="stylesheet" type="text/css" href="theme-assets/css/template-counter.css">
+    <!-- END Page Level CSS-->
+    <!-- BEGIN Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- END Custom CSS-->
+  </head>
+  <body class=" 1-column   page-animated template-counter" data-menu-open="hover" data-menu="">
+    <!-- Preloader | Comment below code if you don't want preloader-->
+<div id="loader-wrapper">
+    <svg viewbox=" 0 0 512 512" id="loader">
+        <linearGradient id="loaderLinearColors" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="5%" stop-color="#28bcfd"></stop>
+            <stop offset="100%" stop-color="#1d78ff"></stop>
+        </linearGradient>        
+        <g>
+            <circle cx="256" cy="256" r="150" fill="none" stroke="url(#loaderLinearColors)" />
+        </g>
+        <g>
+            <circle cx="256" cy="256" r="125" fill="none" stroke="url(#loaderLinearColors)" />
+        </g>
+        <g>
+            <circle cx="256" cy="256" r="100" fill="none" stroke="url(#loaderLinearColors)" />
+        </g>
+        <g>
+            <circle cx="256" cy="256" r="75" fill="none" stroke="url(#loaderLinearColors)" />
+        </g>
+        <circle cx="256" cy="256" r="60" fill="url(#loaderImage)" stroke="none" stroke-width="0" />
 
-<article>
-    <h1>We&rsquo;ll be back soon!</h1>
-    <div>
-        <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. We&rsquo;ll be back online shortly!</p>
-        <p>&mdash; SMAcoin Team</p>
+        <!-- Change the preloader logo here -->
+        <defs>
+            <pattern id="loaderImage" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+                <image href="theme-assets/images/loader-logo.png" preserveAspectRatio="none" width="1" height="1"></image>
+            </pattern>
+        </defs>
+    </svg>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+<!--/ Preloader -->
+<!-- <nav class="vertical-social">
+    <ul>
+        <li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+        <li><a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+    </ul>
+</nav> -->
+    <!-- /////////////////////////////////// HEADER /////////////////////////////////////-->
+
+    <!-- Header Start-->
+    <header class="page-header">
+      <!-- Horizontal Menu Start-->
+      <nav class="main-menu static-top navbar-dark navbar navbar-expand-lg fixed-top mb-1"><div class="container">
+    <a class="navbar-brand animated" data-animation="fadeInDown" data-animation-delay="1s" href="index.html"><img src="theme-assets/images/logo.png" alt="Crypto Logo"/><span class="brand-text"><span class="font-weight-bold">SMA</span> coin</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div id="navigation" class="navbar-nav ml-auto">
+            <ul class="navbar-nav mt-1">
+                <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
+                    <a class="nav-link" href="index.html#about">What is SMAcoin</a>
+                </li>
+                <!-- <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.2s">
+                    <a class="nav-link" href="index.html#problem-solution">Solutions</a>
+                </li> -->
+                <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.3s">
+                    <a class="nav-link" href="/litepaper">Litepaper</a>
+                </li>
+                <!-- <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.4s">
+                    <a class="nav-link" href="index.html#roadmap">Roadmap</a>
+                </li>
+                <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.5s">
+                    <a class="nav-link" href="index.html#team">Team</a>
+                </li> -->
+                <!-- <li class="dropdown show mr-2 px-2 animated" data-animation="fadeInDown" data-animation-delay="1.6s">
+                    <a class="dropdown-toggle white" href="#" role="button" id="more" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+                    <div class="dropdown-menu" aria-labelledby="more">
+                        <a class="dropdown-item" href="index.html#faq">FAQ</a>
+                        <a class="dropdown-item" href="index.html#blog">Blog</a>
+                        <a class="dropdown-item" href="index.html#contact">Contact</a>
+                        <a class="dropdown-item link" href="template-404.html">404</a>
+                        <a class="dropdown-item link" href="template-inner-page-with-sidebar.html">Sample Page</a>
+                    </div>
+                </li> -->
+                <!-- <li class="dropdown show mr-4 animated" data-animation="fadeInDown" data-animation-delay="1.7s">
+                    <a class="dropdown-toggle white" href="#" role="button" id="language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"></span> EN</a>
+                    <div class="dropdown-menu" aria-labelledby="language">
+                        <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-de"></span> GN</a>
+                        <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es"></span> SP</a>
+                        <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-mq"></span> FR</a>
+                    </div>
+                </li> -->
+            </ul>
+            <span id="slide-line"></span>
+            <!-- <form class="form-inline mt-2 mt-md-0">
+                <a class="btn btn-sm btn-gradient-orange btn-round btn-glow my-2 my-sm-0 animated" data-animation="fadeInDown" data-animation-delay="1.8s" href="https://pixinvent.com/demo/crypto-ico-admin/html/ltr/vertical-menu/account-login.html" target="_blank">Sign in</a>
+            </form> -->
+        </div>
     </div>
-</article>
+</div>
+      </nav>
+      <!-- /Horizontal Menu End-->
+    </header>
+    <!-- /Header End-->
+
+    <!-- //////////////////////////////////// CONTAINER ////////////////////////////////////-->
+    <div class="content-wrapper">
+      <div class="content-body">
+        <main><!-- Header: Counter -->
+<section class="head-area" id="head-area" data-midnight="white">
+    <div class="bg-banner"></div>
+    <div class="head-content container-fluid d-flex align-items-center">
+        <div class="container">
+            <div class="banner-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="banner-content">
+                            <h1 class="animated newtitle" data-animation="fadeInUpShorter" data-animation-delay="1.5s">Just a few more days until<br>our chance to impact people in need</h1>
+                            <!-- <h3 class="pt-5 animated" data-animation="fadeInUpShorter" data-animation-delay="1.7s">$150B Target cap <strong>$99B Raised</strong></h3> -->
+                            <!-- <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="1.9s">
+                                <div class="col-lg-9 col-md-12 mr-auto">
+                                    <div class="loading-bar my-3 position-relative">
+                                        <div class="progres-area py-5">
+                                            <ul class="progress-top">
+                                                <li></li>
+                                                <li class="pre-sale">Pre-Sale</li>
+                                                <li>Soft Cap</li>
+                                                <li class="bonus">Bonus</li>
+                                                <li></li>
+                                            </ul>
+                                            <ul class="progress-bars">
+                                                <li></li>
+                                                <li>|</li>
+                                                <li>|</li>
+                                                <li>|</li>
+                                                <li></li>
+                                            </ul>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-custom" role="progressbar" style="width: 65%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="progress-bottom">
+                                                <div class="progress-info">65% target raised</div>
+                                                <div class="progress-info">1 ETH = $1000 = 3177.38 CIC</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="clock-counter animated" data-animation="fadeInUpShorter" data-animation-delay="2.1s">
+                                <div class="clock ml-0 mt-4"></div>
+                                <div class="message"></div>
+                            </div>
+                            <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="2.3s">
+                                <div class="purchase-token-btn">
+                                    <a href="#" class="btn btn-lg btn-gradient-orange btn-round btn-glow">Litepaper</a>
+                                </div>
+                                <!-- <ul class="crypto-links list-unstyled pl-3">
+                                    <li><a href="#" title="bitcoin"><img src="theme-assets/images/icon-bitcoin.png" alt=""></a></li>
+                                    <li><a href="#" title="ether"><img src="theme-assets/images/icon-eth.png" alt=""></a></li>
+                                    <li><a href="#" title="visa"><img src="theme-assets/images/icon-visa.png" alt=""></a></li>
+                                    <li><a href="#" title="master"><img src="theme-assets/images/icon-maestro.png" alt=""></a></li>
+                                </ul> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 move-first animated" data-animation="zoomIn" data-animation-delay="2s">
+                        <div class="logo-wrapper ml-5 pl-5 align-items-center">
+                            <div class="crypto-logo">
+                                <div id="ripple"></div>
+                                <div id="ripple2"></div>
+                                <div id="ripple3"></div>
+                                <img src="theme-assets/images/logo-big.png" class="crypto-logo-img rounded mx-auto d-block pulse2" alt="SMACOIN">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-ripple-animation d-none d-md-block">
+        <div class="left-bottom-ripples">
+            <div class="ripples"></div>
+        </div>
+        <div class="top-right-ripples">
+            <div class="ripples"></div>
+        </div>
+    </div>
+</section>
+<!--/ Header: Counter -->
+
+<!-- Dev Team Modal Pop-ups -->
+
+        </main>
+      </div>
+    </div>
+    <!-- //////////////////////////////////// FOOTER ////////////////////////////////////-->
+
+
+
+
+
+    <!-- BEGIN VENDOR JS-->
+    <script src="theme-assets/vendors/vendors.min.js"></script>
+    <!-- BEGIN VENDOR JS-->
+    <!-- BEGIN PAGE VENDOR JS-->
+    <script src="theme-assets/vendors/flipclock/flipclock.min.js"></script>
+    <script src="theme-assets/vendors/swiper/js/swiper.min.js"></script>
+    <script src="theme-assets/vendors/waypoints/jquery.waypoints.min.js"></script>
+    <!-- END PAGE VENDOR JS-->
+    <!-- BEGIN THEME JS-->
+    <script src="theme-assets/js/theme.js"></script>
+    <!-- END CRYPTO JS-->
+    <!-- BEGIN PAGE LEVEL JS-->
+    <!-- END PAGE LEVEL JS-->
+  </body>
+</html>

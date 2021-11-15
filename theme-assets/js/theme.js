@@ -129,7 +129,7 @@ $(window).on('load', function() {
             }
         }
     });
-    clock.setTime(8100000);
+    clock.setTime(600000);
     clock.setCountdown(true);
     clock.start();
 
