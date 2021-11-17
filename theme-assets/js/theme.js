@@ -120,7 +120,7 @@ $(window).on('load', function() {
 
     /* FlipClock Counter */
     var clock;
-    clock = $('.clock').FlipClock({
+    clock = $('.clock').FlipClock(new Date("November 22, 2021 00:00:00") ,{
         clockFace: 'DailyCounter',
         autoStart: false,
         callbacks: {
@@ -129,7 +129,7 @@ $(window).on('load', function() {
             }
         }
     });
-    clock.setTime(600000);
+    // clock.setTime(600000);
     clock.setCountdown(true);
     clock.start();
 
