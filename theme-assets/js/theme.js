@@ -120,7 +120,7 @@ $(window).on('load', function() {
 
     /* FlipClock Counter */
     var clock;
-    clock = $('.clock').FlipClock(new Date("December 27, 2021 00:00:00") ,{
+    clock = $('.clock').FlipClock(new Date("January 10, 2022 00:00:00") ,{
         clockFace: 'DailyCounter',
         autoStart: false,
         callbacks: {
